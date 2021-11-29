@@ -492,9 +492,7 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" action="https://formspree.io/f/mlezrwog" method="post">
-      			<fieldset>
-
+            <form action="https://formspree.io/f/mlezrwog" method="post">
                   <div class="form-field">
  						   <input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
@@ -505,7 +503,7 @@
 	     				   <input name="_subject" type="text" id="contactSubject" placeholder="Subject" value="">
 	               </div>                       
                   <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	                 	<textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
                  <div class="form-field">
                      <div id="submit-loader">
@@ -517,8 +515,6 @@
 						</div>
 					 </div>
                  </div>
-
-      			</fieldset>
 				  <input type="submit" value="Send" class="submitForm">
       		</form> <!-- Form End -->
 
